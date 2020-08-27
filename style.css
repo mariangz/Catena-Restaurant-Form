@@ -69,6 +69,17 @@ body {
 input[type="text"],
 input[type="email"],
 input[type="number"],
-select {
+input[type="button"],
+select,
+textarea {
   display: block;
+  width: 100%;
+  color: white;
+}
+
+/* LABEL */
+.form_section__label {
+  margin-bottom: 0.5rem;
+  display: block;
+  border: 2px solid yellow;
 }
