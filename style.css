@@ -10,7 +10,35 @@ body {
   color: white;
   background-color: #1f1e2e;
 }
+/* MAIN */
+.main {
+  max-width: 700px;
+  margin: 0 auto;
+  border: 3px solid lawngreen;
+}
+
+/* HEAD */
+.header {
+  border: 3px solid lightsalmon;
+  margin: 1rem;
+}
+
+/* IMAGE */
+.img-contain {
+  border: 3px solid lightseagreen;
+  width: 400px;
+  margin: 1rem;
+}
 
 .img-contain__image {
-  width: 450px;
+  display: block;
+  max-width: 80%;
+  margin: 1rem;
+}
+
+/* FORM */
+.form {
+  border: 5px solid red;
+  padding: 1rem;
+  margin: 1rem;
 }

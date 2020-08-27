@@ -7,7 +7,8 @@
     <title>Andes Restaurant</title>
   </head>
   <body>
-    <div class="container-total">
+    <main class="main">
+      <!-- MAIN -->
       <!-- HEADER -->
       <header class="header">
         <div class="header_container">
@@ -15,95 +16,92 @@
           <span class="header__span">by Catena Zapata</span>
         </div>
       </header>
-      <!-- MAIN -->
-      <main class="main">
-        <!-- IMAGE -->
-        <figure class="img-contain">
-          <img class="img-contain__image" src="images/plate.jpg" alt="food" />
-        </figure>
-        <!-- FORM -->
-        <form class="form" action="">
-          <!-- NAME -->
-          <section class="form_section">
-            <label class="form_section__label" for="name">Name</label>
-            <input class="form_section__input" type="text" name="name" id="name" />
-          </section>
-          <!-- EMAIL -->
-          <section class="form_section">
-            <ul>
-              <li></li>
-            </ul>
-            <label class="form_section__label" for="email">Email</label>
-            <input class="form_section__input" type="email" name="email" id="email" />
-          </section>
-          <!-- AGE -->
-          <section class="form_section">
-            <label class="form_section__label" class="form_section__label" for="age">Age</label>
-            <input class="form_section__input" type="number" name="age" id="age" />
-          </section>
-          <!-- AREA-SELECT -->
-          <section class="form_section">
-            <label class="form_section__label" for="area">What are would you like?</label>
-            <select class="form_section__select" name="area" id="area">
-              <option value="salon">Salon</option>
-              <option value="garden">Garden</option>
-              <option value="terrace">Terrace</option>
-            </select>
-          </section>
-          <!-- VEGETARIAN-RADIO -->
-          <section class="form_section">
-            <label class="form_section__label">Are you vegetarian?</label>
+      <!-- IMAGE -->
+      <figure class="img-contain">
+        <img class="img-contain__image" src="images/plate.jpg" alt="food" />
+      </figure>
+      <!-- FORM -->
+      <form class="form" action="">
+        <!-- NAME -->
+        <section class="form_section">
+          <label class="form_section__label" for="name">Name</label>
+          <input class="form_section__input" type="text" name="name" id="name" />
+        </section>
+        <!-- EMAIL -->
+        <section class="form_section">
+          <ul>
+            <li></li>
+          </ul>
+          <label class="form_section__label" for="email">Email</label>
+          <input class="form_section__input" type="email" name="email" id="email" />
+        </section>
+        <!-- AGE -->
+        <section class="form_section">
+          <label class="form_section__label" class="form_section__label" for="age">Age</label>
+          <input class="form_section__input" type="number" name="age" id="age" />
+        </section>
+        <!-- AREA-SELECT -->
+        <section class="form_section">
+          <label class="form_section__label" for="area">What are would you like?</label>
+          <select class="form_section__select" name="area" id="area">
+            <option value="salon">Salon</option>
+            <option value="garden">Garden</option>
+            <option value="terrace">Terrace</option>
+          </select>
+        </section>
+        <!-- VEGETARIAN-RADIO -->
+        <section class="form_section">
+          <label class="form_section__label">Are you vegetarian?</label>
 
-            <div class="container-radio">
-              <input type="radio" name="vegetarian" id="yes" value="yes" />
-              <label for="yes">Yes</label>
-            </div>
+          <div class="container-radio">
+            <input type="radio" name="vegetarian" id="yes" value="yes" />
+            <label for="yes">Yes</label>
+          </div>
 
-            <div class="container-radio">
-              <input type="radio" name="vegetarian" id="no" value="no" />
-              <label for="no">No</label>
-            </div>
-          </section>
-          <!-- VARIETY-CHECKBOX -->
-          <section class="form_section">
-            <label class="form_section__label">Choose your favourites varieties</label>
-            <div class="container-check">
-              <input type="checkbox" name="variety" id="variety" value="malbcec" />
-              <label for="variety">Malbcec</label>
-            </div>
-            <div class="container-check">
-              <input type="checkbox" name="variety" id="variety" value="cabernet" />
-              <label for="variety">Cabernet Sauvignon</label>
-            </div>
-            <div class="container-check">
-              <input type="checkbox" name="variety" id="variety" value="syrah" />
-              <label for="variety">Syrah</label>
-            </div>
-            <div class="container-check">
-              <input type="checkbox" name="variety" id="variety" value="merlot" />
-              <label for="variety">Merlot</label>
-            </div>
-            <div class="container-check">
-              <input type="checkbox" name="variety" id="variety" value="chardonnay" />
-              <label for="variety">Chardonnay</label>
-            </div>
-          </section>
-          <!-- EXTRA-TEXTAREA -->
-          <section class="form_section">
-            <label class="form_section__label" class="form_section__label" for="extra"
-              >Anything else would you like to add?</label
-            >
-            <textarea
-              class="form_section__textarea"
-              name="extra"
-              id="extra"
-              cols="30"
-              rows="10"
-              placeholder="Comment here"
-            ></textarea>
-          </section>
-        </form>
-      </main>
-    </div>
+          <div class="container-radio">
+            <input type="radio" name="vegetarian" id="no" value="no" />
+            <label for="no">No</label>
+          </div>
+        </section>
+        <!-- VARIETY-CHECKBOX -->
+        <section class="form_section">
+          <label class="form_section__label">Choose your favourites varieties</label>
+          <div class="container-check">
+            <input type="checkbox" name="variety" id="variety" value="malbcec" />
+            <label for="variety">Malbcec</label>
+          </div>
+          <div class="container-check">
+            <input type="checkbox" name="variety" id="variety" value="cabernet" />
+            <label for="variety">Cabernet Sauvignon</label>
+          </div>
+          <div class="container-check">
+            <input type="checkbox" name="variety" id="variety" value="syrah" />
+            <label for="variety">Syrah</label>
+          </div>
+          <div class="container-check">
+            <input type="checkbox" name="variety" id="variety" value="merlot" />
+            <label for="variety">Merlot</label>
+          </div>
+          <div class="container-check">
+            <input type="checkbox" name="variety" id="variety" value="chardonnay" />
+            <label for="variety">Chardonnay</label>
+          </div>
+        </section>
+        <!-- EXTRA-TEXTAREA -->
+        <section class="form_section">
+          <label class="form_section__label" class="form_section__label" for="extra"
+            >Anything else would you like to add?</label
+          >
+          <textarea
+            class="form_section__textarea"
+            name="extra"
+            id="extra"
+            cols="30"
+            rows="10"
+            placeholder="Comment here"
+          ></textarea>
+        </section>
+      </form>
+    </main>
   </body>
 </html>
