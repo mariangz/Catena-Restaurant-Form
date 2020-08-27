@@ -75,11 +75,29 @@ textarea {
   display: block;
   width: 100%;
   color: white;
+  height: auto;
+}
+
+input[type="button"] {
+  background-color: #f44b27;
+  padding: 0.7rem;
+  border-radius: 15px;
+
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 80%;
+  margin: 0 auto;
+}
+
+option,
+input[type="radio"],
+input[type="checkbox"] {
+  margin-bottom: 0.5rem;
 }
 
 /* LABEL */
 .form_section__label {
   margin-bottom: 0.5rem;
   display: block;
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
 }
