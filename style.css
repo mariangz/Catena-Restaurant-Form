@@ -12,20 +12,26 @@ body {
 }
 /* MAIN */
 .main {
-  max-width: 700px;
-  margin: 0 auto;
+  max-width: 500%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 2rem;
   border: 3px solid lawngreen;
 }
 
+/* .container {
+  border: 3px solid gold;
+  padding: 2rem;
+} */
 /* HEAD */
 .header {
-  border: 3px solid lightsalmon;
+  /* border: 3px solid lightsalmon; */
   margin: 1rem;
   text-align: center;
 }
 
 .header__span {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: block;
   text-align: right;
 }
@@ -34,29 +40,31 @@ body {
   display: inline;
 }
 .header_container {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: inline-block;
 }
 
 /* IMAGE */
 .img-contain {
-  border: 3px solid lightseagreen;
-  width: 400px;
+  /* border: 3px solid lightseagreen; */
+
   margin: 1rem;
   margin: 0 auto;
 }
 
 .img-contain__image {
   display: block;
-  max-width: 80%;
-  margin: 1rem;
+  max-width: 350px;
+  max-width: 100%;
 }
 
 /* FORM */
 .form {
   border: 5px solid red;
-  padding: 1rem;
-  margin: 1rem;
+  margin-top: 0.9rem;
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .form_section {
