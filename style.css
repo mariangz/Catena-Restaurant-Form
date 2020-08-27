@@ -1,0 +1,16 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Varela", sans-serif;
+  color: white;
+  background-color: #1f1e2e;
+}
+
+.img-contain__image {
+  width: 450px;
+}
