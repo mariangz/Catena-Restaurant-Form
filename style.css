@@ -42,3 +42,11 @@ body {
   padding: 1rem;
   margin: 1rem;
 }
+
+/* INPUT */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+  display: block;
+}
