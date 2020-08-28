@@ -101,14 +101,11 @@ textarea {
 
 input[type="button"] {
   background-color: #f44b27;
-  border: none;
   padding: 0.7rem;
   border-radius: 15px;
   text-transform: uppercase;
-  padding: 1rem;
   font-weight: bold;
   width: 100%;
-  margin: 0 auto;
 }
 
 option,
