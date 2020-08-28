@@ -13,6 +13,9 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  color: whitesmoke;
+  min-height: 100vh;
+  --main-color: #1f1e2e;
 }
 
 input,
@@ -20,17 +23,18 @@ textarea,
 select,
 button {
   font-family: "Varela", sans-serif;
+  color: whitesmoke;
 }
 
 /* MAIN */
 .main {
-  max-width: 500px;
-  margin-right: auto;
-  margin-left: auto;
+  max-width: 600px;
+  margin: 0 auto;
   padding: 2rem;
-  opacity: 0.9;
+  /* opacity: 0.; */
+  background-color: var(--main-color);
   /* border: 3px solid lawngreen; */
-  background-color: #f5f5f5;
+  border-radius: 5%;
 }
 
 /* .container {
@@ -40,7 +44,7 @@ button {
 /* HEAD */
 .header {
   /* border: 3px solid lightsalmon; */
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   text-align: center;
 }
 
@@ -48,10 +52,13 @@ button {
   /* border: 1px solid red; */
   display: block;
   text-align: right;
+  font-style: italic;
+  color: #f5af2f;
 }
 
 .header__title {
   display: inline;
+  font-size: 3rem;
 }
 .header_container {
   /* border: 1px solid red; */
@@ -60,19 +67,19 @@ button {
 
 /* IMAGE */
 .img-contain {
-  border: 3px solid lightseagreen;
-
-  margin: 1rem;
+  /* border: 3px solid lightseagreen; */
+  /* margin: 1rem;
   margin: 0 auto;
-  max-width: 350px;
+  max-width: 350px; */
   display: none;
 }
+*/
 
-.img-contain__image {
+/* .img-contain__image {
   display: block;
   max-width: 350px;
   max-width: 100%;
-}
+} */
 
 /* FORM */
 .form {
@@ -98,19 +105,22 @@ textarea {
   display: block;
   width: 100%;
   height: auto;
-  padding: 1rem;
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+  background-color: var(--main-color);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.584);
 }
 
 input[type="button"] {
-  background-color: #45b69c;
-  color: #f5f5f5;
+  background-color: #f44b27;
   border: none;
   padding: 0.7rem;
   border-radius: 15px;
   text-transform: uppercase;
   padding: 1rem;
   font-weight: bold;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -122,9 +132,9 @@ input[type="checkbox"] {
 
 /* LABEL */
 .form_section__label {
-  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
   display: block;
-  color: #737996;
   font-size: 0.8rem;
+  color: whitesmoke;
   /* border: 2px solid yellow; */
 }
