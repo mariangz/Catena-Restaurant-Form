@@ -8,12 +8,18 @@
 
 body {
   font-family: "Varela", sans-serif;
-  color: white;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(255, 255, 255, 0.283)),
-    url(images/mountains.jpg);
+    url(images/restaurant.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+input,
+textarea,
+select,
+button {
+  font-family: "Varela", sans-serif;
 }
 
 /* MAIN */
@@ -22,9 +28,9 @@ body {
   margin-right: auto;
   margin-left: auto;
   padding: 2rem;
-  background-color: #1f1e2e;
   opacity: 0.9;
   /* border: 3px solid lawngreen; */
+  background-color: #f5f5f5;
 }
 
 /* .container {
@@ -34,7 +40,7 @@ body {
 /* HEAD */
 .header {
   /* border: 3px solid lightsalmon; */
-  margin: 1rem;
+  margin-bottom: 3rem;
   text-align: center;
 }
 
@@ -54,11 +60,12 @@ body {
 
 /* IMAGE */
 .img-contain {
-  /* border: 3px solid lightseagreen; */
+  border: 3px solid lightseagreen;
 
   margin: 1rem;
   margin: 0 auto;
   max-width: 350px;
+  display: none;
 }
 
 .img-contain__image {
@@ -78,7 +85,6 @@ body {
 
 .form_section {
   /* border: 3px solid yellow; */
-  padding: 1rem;
   margin: 1rem;
 }
 
@@ -91,16 +97,18 @@ select,
 textarea {
   display: block;
   width: 100%;
-  color: white;
   height: auto;
+  padding: 1rem;
 }
 
 input[type="button"] {
-  background-color: #f44b27;
+  background-color: #45b69c;
+  color: #f5f5f5;
+  border: none;
   padding: 0.7rem;
   border-radius: 15px;
-
   text-transform: uppercase;
+  padding: 1rem;
   font-weight: bold;
   width: 80%;
   margin: 0 auto;
@@ -116,5 +124,7 @@ input[type="checkbox"] {
 .form_section__label {
   margin-bottom: 0.5rem;
   display: block;
+  color: #737996;
+  font-size: 0.8rem;
   /* border: 2px solid yellow; */
 }
