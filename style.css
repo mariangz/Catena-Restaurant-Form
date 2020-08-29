@@ -61,8 +61,9 @@ body {
 /* LABEL */
 .form_section__label {
   margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
   display: block;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: whitesmoke;
   /* border: 2px solid yellow; */
 }
@@ -99,6 +100,8 @@ input[type="button"] {
   text-transform: uppercase;
   font-weight: bold;
   width: 100%;
+  color: white;
+  transition: background-color 0.5s, color 0.5s;
 }
 
 option,
@@ -108,18 +111,6 @@ input[type="checkbox"] {
 }
 
 /* INPUT HOVER & FOCUS */
-textarea:hover,
-select:hover,
-input[type="text"]:hover,
-input[type="number"]:hover,
-input[type="email"]:hover,
-textarea:focus,
-select:focus,
-input[type="text"]:focus,
-input[type="number"]:focus,
-input[type="email"]:focus {
-  border-bottom: 2px solid #f5af2f;
-}
 
 input[type="button"]:hover,
 input[type="button"]:focus {
@@ -139,11 +130,13 @@ input[type="button"]:focus {
 @media (min-width: 800px) {
   .form {
     flex-direction: row;
-    border: 2px solid greenyellow;
     width: 100%;
   }
   .container-left {
-    border: 2px solid palegoldenrod;
     width: 50%;
+  }
+
+  textarea {
+    padding-bottom: 4rem;
   }
 }
