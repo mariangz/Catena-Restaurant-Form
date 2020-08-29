@@ -26,6 +26,7 @@ body {
   min-width: 150px;
   width: 100%;
   margin: auto;
+  padding: 1rem 2rem;
   background-color: var(--main-color);
 }
 
