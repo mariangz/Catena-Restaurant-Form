@@ -21,8 +21,8 @@
       </header>
       <!-- FORM -->
       <form class="form" action="">
-        <!-- LEFT SIDE -->
-        <div class="container-right">
+        <!-- ----------------------LEFT SIDE---------------------- -->
+        <div class="container-left">
           <!-- NAME -->
           <section class="form_section">
             <label class="form_section__label" for="name">Name</label>
@@ -36,7 +36,6 @@
           <!-- VEGETARIAN-RADIO -->
           <section class="form_section">
             <label class="form_section__label">Are you vegetarian?</label>
-
             <div class="container-radio">
               <input type="radio" name="vegetarian" id="yes" value="yes" />
               <label for="yes">Yes</label>
@@ -71,40 +70,42 @@
             </div>
           </section>
         </div>
-        <!-- RIGHT SIDE -->
+        <!-- ----------------------RIGHT SIDE---------------------- -->
         <!-- EMAIL -->
-        <section class="form_section">
-          <label class="form_section__label" for="email">Email</label>
-          <input class="form_section__input" type="email" name="email" id="email" />
-        </section>
-        <!-- AREA-SELECT -->
-        <section class="form_section">
-          <label class="form_section__label" for="area">What area would you like?</label>
-          <select class="form_section__select" name="area" id="area">
-            <option disabled selected value="">Areas</option>
-            <option value="salon">Salon</option>
-            <option value="garden">Garden</option>
-            <option value="terrace">Terrace</option>
-          </select>
-        </section>
-        <!-- EXTRA-TEXTAREA -->
-        <section class="form_section">
-          <label class="form_section__label" class="form_section__label" for="extra"
-            >Anything else would you like to add?</label
-          >
-          <textarea
-            class="form_section__textarea"
-            name="extra"
-            id="extra"
-            cols="30"
-            rows="4"
-            placeholder="Comment here"
-          ></textarea>
-        </section>
-        <!-- BUTTON -->
-        <section class="orm_section__button">
-          <input type="button" value="Send" />
-        </section>
+        <div class="container-right">
+          <section class="form_section">
+            <label class="form_section__label" for="email">Email</label>
+            <input class="form_section__input" type="email" name="email" id="email" />
+          </section>
+          <!-- AREA-SELECT -->
+          <section class="form_section">
+            <label class="form_section__label" for="area">What area would you like?</label>
+            <select class="form_section__select" name="area" id="area">
+              <option disabled selected value="">Areas</option>
+              <option value="salon">Salon</option>
+              <option value="garden">Garden</option>
+              <option value="terrace">Terrace</option>
+            </select>
+          </section>
+          <!-- EXTRA-TEXTAREA -->
+          <section class="form_section">
+            <label class="form_section__label" class="form_section__label" for="extra"
+              >Anything else would you like to add?</label
+            >
+            <textarea
+              class="form_section__textarea"
+              name="extra"
+              id="extra"
+              cols="30"
+              rows="4"
+              placeholder="Comment here"
+            ></textarea>
+          </section>
+          <!-- BUTTON -->
+          <section class="orm_section__button">
+            <input type="button" value="Send" />
+          </section>
+        </div>
       </form>
     </main>
   </body>
