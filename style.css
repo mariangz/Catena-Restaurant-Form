@@ -111,15 +111,6 @@ input[type="checkbox"] {
   margin-bottom: 0.5rem;
 }
 
-/* INPUT HOVER & FOCUS */
-
-input[type="button"]:hover,
-input[type="button"]:focus {
-  background-color: white;
-  border: 1px solid #f44b27;
-  color: #f44b27;
-}
-
 /* MEDIA QUERIES */
 /* MIN-600PX */
 @media (min-width: 600px) {
@@ -145,5 +136,13 @@ input[type="button"]:focus {
   input[type="button"] {
     transition: background-color 0.5s, color 0.5s;
     margin-top: 2rem;
+  }
+
+  /* INPUT HOVER & FOCUS */
+  input[type="button"]:hover,
+  input[type="button"]:focus {
+    background-color: white;
+    border: 1px solid #f44b27;
+    color: #f44b27;
   }
 }
