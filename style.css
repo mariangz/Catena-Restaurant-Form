@@ -19,6 +19,11 @@ body {
   display: flex;
 }
 
+p {
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
 /* MAIN */
 .main {
   display: flex;

@@ -1,112 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet" />
-    <title>Andes Restaurant</title>
-  </head>
-  <body>
-    <!-- MAIN -->
-    <main class="main">
-      <!-- HEADER -->
-      <header class="header">
-        <h1 class="header__title">Andes Restaurant</h1>
-        <span class="header__span">by Catena Zapata</span>
-      </header>
-      <!-- FORM -->
-      <form class="form" action="">
-        <!-- ----------------------LEFT SIDE---------------------- -->
-        <div class="container-left">
-          <!-- NAME -->
-          <section class="form_section">
-            <label class="form_section__label" for="name">Name</label>
-            <input class="form_section__input" type="text" name="name" id="name" />
-          </section>
-          <!-- AGE -->
-          <section class="form_section">
-            <label class="form_section__label" class="form_section__label" for="age">Age</label>
-            <input class="form_section__input" type="number" name="age" id="age" />
-          </section>
-          <!-- VEGETARIAN-RADIO -->
-          <section class="form_section">
-            <label class="form_section__label">Are you vegetarian?</label>
-            <div class="container-radio">
-              <input type="radio" name="vegetarian" id="yes" value="yes" />
-              <label for="yes">Yes</label>
-            </div>
-            <div class="container-radio">
-              <input type="radio" name="vegetarian" id="no" value="no" />
-              <label for="no">No</label>
-            </div>
-          </section>
-          <!-- VARIETY-CHECKBOX -->
-          <section class="form_section">
-            <label class="form_section__label">Choose your favourites varieties</label>
-            <div class="container-check">
-              <input type="checkbox" name="variety" id="variety" value="malbcec" />
-              <label for="variety">Malbcec</label>
-            </div>
-            <div class="container-check">
-              <input type="checkbox" name="variety" id="variety" value="cabernet" />
-              <label for="variety">Cabernet Sauvignon</label>
-            </div>
-            <div class="container-check">
-              <input type="checkbox" name="variety" id="variety" value="syrah" />
-              <label for="variety">Syrah</label>
-            </div>
-            <div class="container-check">
-              <input type="checkbox" name="variety" id="variety" value="merlot" />
-              <label for="variety">Merlot</label>
-            </div>
-            <div class="container-check">
-              <input type="checkbox" name="variety" id="variety" value="chardonnay" />
-              <label for="variety">Chardonnay</label>
-            </div>
-          </section>
-        </div>
-        <!-- ----------------------RIGHT SIDE---------------------- -->
-        <!-- EMAIL -->
-        <div class="container-right">
-          <section class="form_section">
-            <label class="form_section__label" for="email">Email</label>
-            <input class="form_section__input" type="email" name="email" id="email" />
-          </section>
-          <!-- AREA-SELECT -->
-          <section class="form_section">
-            <label class="form_section__label" for="area">What area would you like?</label>
-            <select class="form_section__select" name="area" id="area">
-              <option disabled selected value="">Areas</option>
-              <option value="salon">Salon</option>
-              <option value="garden">Garden</option>
-              <option value="terrace">Terrace</option>
-            </select>
-          </section>
-          <!-- EXTRA-TEXTAREA -->
-          <section class="form_section">
-            <label class="form_section__label" class="form_section__label" for="extra"
-              >Anything else would you like to add?</label
-            >
-            <textarea
-              class="form_section__textarea"
-              name="extra"
-              id="extra"
-              cols="30"
-              rows="4"
-              placeholder="Comment here"
-            ></textarea>
-          </section>
-          <!-- BUTTON -->
-          <section class="orm_section__button">
-            <input type="button" value="Send" />
-          </section>
-        </div>
-      </form>
-    </main>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet" />
+  <title>Andes Restaurant</title>
+</head>
+
+<body>
+  <!-- MAIN -->
+  <main class="main">
+    <!-- HEADER -->
+    <header class="header">
+      <h1 id="title" class="header__title">Andes Restaurant</h1>
+      <span class="header__span">by Catena Zapata</span>
+      <p>Please book your place</p>
+    </header>
+    <!-- FORM -->
+    <form class="form" action="">
+      <!-- ----------------------LEFT SIDE---------------------- -->
+      <div class="container-left">
+        <!-- NAME -->
+        <section class="form_section">
+          <label class="form_section__label" for="name">Name</label>
+          <input class="form_section__input" type="text" name="name" id="name" />
+        </section>
+        <!-- AGE -->
+        <section class="form_section">
+          <label class="form_section__label" class="form_section__label" for="age">Age</label>
+          <input class="form_section__input" type="number" name="age" id="age" />
+        </section>
+        <!-- VEGETARIAN-RADIO -->
+        <section class="form_section">
+          <label class="form_section__label">Are you vegetarian?</label>
+          <div class="container-radio">
+            <input type="radio" name="vegetarian" id="yes" value="yes" />
+            <label for="yes">Yes</label>
+          </div>
+          <div class="container-radio">
+            <input type="radio" name="vegetarian" id="no" value="no" />
+            <label for="no">No</label>
+          </div>
+        </section>
+        <!-- VARIETY-CHECKBOX -->
+        <section class="form_section">
+          <label class="form_section__label">Choose your favourites varieties</label>
+          <div class="container-check">
+            <input type="checkbox" name="variety" id="variety" value="malbcec" />
+            <label for="variety">Malbcec</label>
+          </div>
+          <div class="container-check">
+            <input type="checkbox" name="variety" id="variety" value="cabernet" />
+            <label for="variety">Cabernet Sauvignon</label>
+          </div>
+          <div class="container-check">
+            <input type="checkbox" name="variety" id="variety" value="syrah" />
+            <label for="variety">Syrah</label>
+          </div>
+          <div class="container-check">
+            <input type="checkbox" name="variety" id="variety" value="merlot" />
+            <label for="variety">Merlot</label>
+          </div>
+          <div class="container-check">
+            <input type="checkbox" name="variety" id="variety" value="chardonnay" />
+            <label for="variety">Chardonnay</label>
+          </div>
+        </section>
+      </div>
+      <!-- ----------------------RIGHT SIDE---------------------- -->
+      <!-- EMAIL -->
+      <div class="container-right">
+        <section class="form_section">
+          <label class="form_section__label" for="email">Email</label>
+          <input class="form_section__input" type="email" name="email" id="email" />
+        </section>
+        <!-- AREA-SELECT -->
+        <section class="form_section">
+          <label class="form_section__label" for="area">What area would you like?</label>
+          <select class="form_section__select" name="area" id="area">
+            <option disabled selected value="">Areas</option>
+            <option value="salon">Salon</option>
+            <option value="garden">Garden</option>
+            <option value="terrace">Terrace</option>
+          </select>
+        </section>
+        <!-- EXTRA-TEXTAREA -->
+        <section class="form_section">
+          <label class="form_section__label" class="form_section__label" for="extra">Anything else would you like to
+            add?</label>
+          <textarea class="form_section__textarea" name="extra" id="extra" cols="30" rows="4"
+            placeholder="Comment here"></textarea>
+        </section>
+        <!-- BUTTON -->
+        <section class="orm_section__button">
+          <input type="button" value="Send" />
+        </section>
+      </div>
+    </form>
+  </main>
+</body>
+
 </html>
