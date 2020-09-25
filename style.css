@@ -65,8 +65,7 @@ body {
   margin-bottom: 0.5rem;
   display: block;
   font-size: 0.9rem;
-  color: whitesmoke;
-  /* border: 2px solid yellow; */
+  color: rgb(210, 206, 206);
 }
 
 /* INPUT */
@@ -76,6 +75,7 @@ select,
 button {
   font-family: "Varela", sans-serif;
   color: whitesmoke;
+  font-size: 1rem;
 }
 
 input[type="text"],
@@ -118,6 +118,7 @@ input[type="checkbox"] {
     width: 600px;
   }
 }
+
 /* MIN-800PX */
 @media (min-width: 800px) {
   .form {
@@ -125,6 +126,7 @@ input[type="checkbox"] {
     width: 100%;
     padding: 1rem;
   }
+
   .container-left {
     width: 50%;
   }
